@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+background: lightblue;
+
+}
+.stopwatch span{
+  background:#00ABA9;
+  display: inline-block;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 55px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stopwatch .stopwatch-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+  border-radius:85px;
+  border: 50px;
+  padding: 12px ;
+  font-size: 16px;
+  text-transform: uppercase;
+  
+}
+.stopwatch .stopwatch-btn-red{
+  border: 2px solid #C85454;
+  color: #C85454;
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 2px solid #FFC900;
+  color: #FFC900;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.stopwatch .stopwatch-btn-gre{
+  border: 2px solid #00ABA9;
+  color: #00ABA9;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.stopwatch .stopwatch-btn-red:hover {
+  background: red;
+  border: 2px solid red;
+  color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+.stopwatch .stopwatch-btn-yel:hover {
+  background: yellow;
+  border: 2px solid yellow;
+  color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stopwatch .stopwatch-btn-gre:hover {
+  background: #00ABA9;
+  border: 2px solid #00ABA9;
+  color: #fff;
 }
